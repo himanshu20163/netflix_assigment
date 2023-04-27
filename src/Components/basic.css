@@ -1,0 +1,98 @@
+#header_box{
+    box-sizing: border-box;
+    height:100vh;
+    width:100vw;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url('https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/42f6dd08-d478-46e4-a4a8-e3a93aa7e085/IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    /* background-image:url("https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/42f6dd08-d478-46e4-a4a8-e3a93aa7e085/IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_medium.jpg"); */
+}
+#head_part{
+    box-sizing: border-box;
+    padding: 10px;
+    height:10vh;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    
+    display: flex;
+    justify-content: center;
+}
+svg{
+    color:white;
+}
+#right_box{
+    margin-top:10px;
+    padding-left:8px;
+    padding-right:8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:15%;
+    border:1px solid rgba(218, 218, 218, 0.363);
+}
+select{
+    border-style: none;
+    width: 80%;
+    color:white;
+    background-color: transparent;
+}
+option{
+    border-style: none;
+    background-color: black;
+}
+button{
+    border-radius:5px;
+    margin-top: 10px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    color: White;
+    margin-left: 20px;
+    border-style: none;
+    width: 10%;
+    height: 80%;
+    background-color: red;
+}
+#email_box{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width:55%;
+    height: 15%;
+}
+.email_input{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    width:55%;
+}
+.email_button{
+    height: 100%;
+    width:40%;
+}
+input[type="text"] {
+    outline: 1px solid white;
+    border:2px solid white;
+    border-style: none;
+    width: 100%;
+    height: 75%;
+    background-color: rgba(22, 22, 22, 0.7);
+}
+input[type="text"]::placeholder{
+    padding-left:10px;
+    color:white;
+}
+input[type="text"]:hover{
+    
+}
+#get{
+    font-weight:500;
+    font-size: 19px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:55%;
+    height: 70%;
+}
